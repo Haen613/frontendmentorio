@@ -1,0 +1,65 @@
+body{
+    background-color:hsl(30, 38%, 92%);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{ 
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 2%;
+    max-width: 500px;
+    margin: 200px auto;
+}
+.col img{
+    border-bottom-left-radius: 2%;
+    border-top-left-radius: 2%; 
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    width: 50%; /* tells this element to be shift 50% of the parent - "content" */
+    max-width: 250px;
+}
+ #text{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+p{
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+#bold{
+    color: hsl(212, 21%, 14%);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+}
+#green{
+    color:rgb(30, 90, 56);
+    font-size: 28px;
+    font-weight: 700;
+}
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    background-color: rgb(0, 73, 0);
+    margin-top: 20px;
+    padding: 5px;
+    border: solid black 1px;
+    border-radius: 5%;
+    width: 70%;
+}
+.button:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
