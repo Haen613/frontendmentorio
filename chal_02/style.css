@@ -1,0 +1,105 @@
+
+body{
+    background-color: hsl(225, 11%, 7%);
+}
+.rate-container{
+    background-color: hsl(218, 23%, 14%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    margin: 200px auto;
+    max-width: 370px;
+    padding: 25px;
+}
+.rate-container div{
+    padding: 10px;
+}
+button{
+    background-color: #2a333c;
+    border: solid 0px black;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.text-box h1, #orange{
+    color: white;
+}
+.text-box p, button{
+    color: hsl(217, 12%, 63%);
+}
+.text-box p{
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.5;
+    margin-top: -5px;
+    margin-bottom: 2px;
+}
+.rate-bttn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* need to unsquish rate button - did so with height declar.*/
+}
+#orange{
+    display: flex;
+    border-radius: 25px;
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.rate-bttn button:hover{
+    background-color:hsl(25, 97%, 53%);
+    color: white;
+}
+.active{
+    background-color:hsl(217, 12%, 63%);
+    color: white;
+}
+
+.thank-container{
+    background-color: hsl(218, 23%, 14%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    margin: 200px auto;
+    max-width: 370px;
+    padding: 25px;
+}
+.thank-container div{
+    padding: 10px;
+}
+.review-text h2, .review-text p, .selected p{
+    text-align: center;
+}
+.review-text h2{
+    margin-bottom: -4px;
+    color: white;
+}
+.review-text p{
+    color: hsl(217, 12%, 63%);
+    line-height: 1.4;
+}
+
+#number-selected{
+    background-color: #2a333c;
+    color: hsl(25, 97%, 53%);
+    width: 100%;
+    border-radius: 25px;
+    padding: 8px;
+    margin-bottom: -10px;
+}
+
+
+
+
+
